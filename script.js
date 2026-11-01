@@ -1,6 +1,6 @@
 // Add your NEW Gemini API key here.
 // Do not use the previously exposed key.
-const API_KEY = "AQ.Ab8RN6KpIxVb1FGeQoty5JPy7P9aMibHyTyXiKK9WIAnI9hPDg";
+const API_KEY = "AQ.Ab8RN6LT7fKIIoCqgImrD_IZhQbp-3wTPuPgMYERg5CB27biyg";
 
 const MODEL = "gemini-2.5-flash";
 
