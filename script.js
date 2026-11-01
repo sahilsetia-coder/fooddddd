@@ -2,7 +2,7 @@
 // Do not use the previously exposed key.
 const API_KEY = "AQ.Ab8RN6LT7fKIIoCqgImrD_IZhQbp-3wTPuPgMYERg5CB27biyg";
 
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-3.8-flash";
 
 const imageInput = document.getElementById("imageInput");
 const preview = document.getElementById("preview");
