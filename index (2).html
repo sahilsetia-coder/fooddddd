@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCheck AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🍎 FreshCheck AI</h1>
+        <p>AI-Powered Food Freshness Detection</p>
+
+        <div class="card">
+            <h2>Upload Food Image</h2>
+
+            <input type="file" id="imageInput" accept="image/*">
+
+            <label for="imageInput" class="upload">
+                Choose Fruit or Vegetable Image
+            </label>
+
+            <img id="preview" alt="Food preview">
+
+            <button id="analyzeBtn">Analyze Freshness</button>
+
+            <div id="loading">Analyzing image...</div>
+        </div>
+
+        <div class="card">
+            <h2>Analysis Result</h2>
+            <div id="result">
+                Upload an image to begin.
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
